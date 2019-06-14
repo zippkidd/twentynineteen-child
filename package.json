@@ -1,0 +1,30 @@
+{
+  "name": "twentynineteen-child",
+  "version": "1.0.0",
+  "description": "Configuration for Wordpress Twenty Nineteen Child Theme to compile JS, compile Sass, and add vendor prefixes.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^3.0.0",
+    "file-loader": "^4.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zippkidd/twentynineteen-child.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zippkidd/twentynineteen-child/issues"
+  },
+  "homepage": "https://github.com/zippkidd/twentynineteen-child#readme"
+}

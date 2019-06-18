@@ -2,7 +2,6 @@
   "name": "twentynineteen-child",
   "version": "1.0.0",
   "description": "Configuration for Wordpress Twenty Nineteen Child Theme to compile JS, compile Sass, and add vendor prefixes.",
-  "main": "index.js",
   "dependencies": {},
   "devDependencies": {
     "css-loader": "^3.0.0",
@@ -14,7 +13,8 @@
     "webpack-cli": "^3.3.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",

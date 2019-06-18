@@ -9,7 +9,7 @@ module.exports = {
 	module: {
 		rules: [
 			{
-				test: /\.(s*)css$/,
+				test: /\.s(a|c)ss$/,
 				use: [
 					'style-loader',
 					'css-loader',
@@ -23,6 +23,5 @@ module.exports = {
 				]
 			}
 		]
-	},
-	mode: 'development'
+	}
 };
